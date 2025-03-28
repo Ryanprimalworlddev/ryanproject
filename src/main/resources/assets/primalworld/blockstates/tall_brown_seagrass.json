@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "primalworld:block/tall_brown_seagrass_lower"
+    },
+    "half=upper": {
+      "model": "primalworld:block/tall_brown_seagrass_upper"
+    }
+  }
+}

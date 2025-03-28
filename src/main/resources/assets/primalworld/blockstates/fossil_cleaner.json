@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north,lit=false": { "model": "primalworld:block/fossil_cleaner" },
+    "facing=south,lit=false": { "model": "primalworld:block/fossil_cleaner", "y": 180 },
+    "facing=east,lit=false": { "model": "primalworld:block/fossil_cleaner", "y": 90 },
+    "facing=west,lit=false": { "model": "primalworld:block/fossil_cleaner", "y": 270 },
+    "facing=up,lit=false": { "model": "primalworld:block/fossil_cleaner", "y": 270 },
+
+
+    "facing=north,lit=true": { "model": "primalworld:block/fossil_cleaner_lit" },
+    "facing=up,lit=true": { "model": "primalworld:block/fossil_cleaner_lit" },
+    "facing=south,lit=true": { "model": "primalworld:block/fossil_cleaner_lit", "y": 180 },
+    "facing=east,lit=true": { "model": "primalworld:block/fossil_cleaner_lit", "y": 90 },
+    "facing=west,lit=true": { "model": "primalworld:block/fossil_cleaner_lit", "y": 270 }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "modid:fossil_cleaning",
+  "ingredients": [
+    {
+      "item": "modid:mesozoic_fossil_common"
+    },
+    {
+      "item": "minecraft:brush"
+    }
+  ],
+  "fluid": {
+    "name": "minecraft:water",
+    "amount": 500
+  },
+  "output": [
+    {
+      "item": "minecraft:bone",
+      "chance": 0.4
+    },
+    {
+      "item": "minecraft:bone_meal",
+      "chance": 0.5
+    },
+    {
+      "item": "primalworld:mesozoic_issue",
+      "chance": 0.1
+    }
+  ],
+  "brush_durability_loss": 1
+}

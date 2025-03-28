@@ -1,0 +1,48 @@
+{
+  "item.primalworld.amber": "Amber",
+  "item.primalworld.raw_amber": "Raw Amber",
+  "item.primalworld.raw_titanium": "Raw Titanium",
+  "block.primalworld.brown_seagrass": "Brown Seagrass",
+
+
+
+
+
+
+  "item.primalworld.mesozoic_fossil_rare": "Rare Mesozoic Fossil",
+  "item.primalworld.mesozoic_fossil_uncommon": "Uncommon Mesozoic Fossil",
+  "item.primalworld.mesozoic_fossil_common": "Common Mesozoic Fossil",
+  "item.primalworld.plant_fossil": "Plant Fossil",
+
+  "item.primalworld.full_drive": "Full Drive",
+  "item.primalworld.drive": "Empty Drive",
+  "item.primalworld.mesozoic_tissue": "Mesozoic Tissue",
+
+  "creativetab.primal_tab": "Primal Tab",
+
+  "block.primalworld.fossil_cleaner": "Fossil Cleaner",
+  "block.primalworld.paleo_table": "Paleo Table",
+  "block.primalworld.amber_block": "Amber Block",
+  "block.primalworld.amber_ore": "Amber Ore",
+  "block.primalworld.deepslate_titanium_ore": "Deepslate Titanium Ore",
+
+  "block.primalworld.fossil_block": "Fossil Block",
+  "block.primalworld.andesite_fossil_block": "Andesite Fossil Block",
+  "block.primalworld.granite_fossil_block": "Granite Fossil Block",
+  "block.primalworld.diorite_fossil_block": "Diorite Fossil Block",
+  "block.primalworld.deepslate_fossil_block": "Deepslate Fossil Block",
+  "block.primalworld.deepslate_amber_ore": "Deepslate Amber Ore",
+
+  "item.primalworld.guaibasaur_spawn_egg": "Guaibasaur Spawn Egg",
+  "item.primalworld.irritator_spawn_egg": "Irritator Spawn Egg",
+
+  "enchantment.primalworld.fossil_lucky": "Fossil Lucky",
+
+  "primalworld.tooltip.liquid.amount.with.capacity": "%s / %s mB",
+  "primalworld.tooltip.liquid.amount": "%s mB",
+
+
+
+
+  "entity.minecraft.villager.primalworld.paleontologist": "Paleontologist"
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "primalword:amber_ore",
+    "primalword:amber_block",
+    "primalword:deepslate_amber_ore",
+    "primalword:deepslate_titanium_ore",
+    "primalword:deepslate_fossil_block",
+    "primalword:fossil_block",
+    "primalword:granite_fossil_block",
+    "primalword:diorite_fossil_block",
+    "primalword:andesite_fossil_block",
+    "primalword:fossil_cleaner"
+  ]
+}

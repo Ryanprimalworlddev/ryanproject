@@ -1,0 +1,21 @@
+{
+  "type": "primalworld:fossil_cleaner",
+  "input": {
+    "item": "primalworld:mesozoic_fossil_uncommon",
+    "fluid": {
+      "name": "minecraft:water",
+      "amount": 500
+    },
+    "brush": "minecraft:brush"
+  },
+  "output": [
+    {
+      "item": "minecraft:bone",
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:bone_meal",
+      "chance": 0.5
+    }
+  ]
+}

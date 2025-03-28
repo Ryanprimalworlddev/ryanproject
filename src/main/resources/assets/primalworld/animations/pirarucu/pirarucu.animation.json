@@ -1,0 +1,56 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"pirarucu.swim": {
+			"loop": true,
+			"bones": {
+				"corpo1": {
+					"rotation": {
+						"vector": [0, "math.sin(query.anim_time*360)*8", 0],
+						"easing": "linear"
+					}
+				},
+				"corpo2": {
+					"rotation": {
+						"vector": [0, "math.sin(query.anim_time*360)*-2", 0],
+						"easing": "linear"
+					}
+				}
+			}
+		},
+		"pirarucu.drown": {
+			"loop": true,
+			"bones": {
+				"corpo1": {
+					"rotation": {
+						"vector": [0, "math.sin(query.anim_time*720)*-15", 0],
+						"easing": "linear"
+					}
+				},
+				"corpo2": {
+					"rotation": {
+						"vector": [0, "math.sin(query.anim_time*720)*15", -90],
+						"easing": "linear"
+					},
+					"position": {
+						"vector": [0, "3+math.sin(query.anim_time*720)*3", 0],
+						"easing": "linear"
+					}
+				},
+				"bone": {
+					"rotation": {
+						"vector": [0, "math.sin(query.anim_time*1440)*15", 0],
+						"easing": "linear"
+					}
+				},
+				"cabea": {
+					"rotation": {
+						"vector": [0, "math.sin(query.anim_time*720)*20", 0],
+						"easing": "linear"
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

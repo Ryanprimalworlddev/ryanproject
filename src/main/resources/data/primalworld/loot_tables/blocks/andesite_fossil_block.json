@@ -1,0 +1,147 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:group",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "primalworld:fossil_lucky",
+                        "levels": 1
+                      }
+                    ]
+                  }
+                }
+              ],
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "weight": 10,
+                  "name": "primalworld:mesozoic_fossil_rare"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 50,
+                  "name": "primalworld:mesozoic_fossil_uncommon"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 40,
+                  "name": "primalworld:mesozoic_fossil_common"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 0,
+                  "name": "minecraft:bone"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:group",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "primalworld:fossil_lucky",
+                        "levels": 2
+                      }
+                    ]
+                  }
+                }
+              ],
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "weight": 20,
+                  "name": "primalworld:mesozoic_fossil_rare"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 40,
+                  "name": "primalworld:mesozoic_fossil_common"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 40,
+                  "name": "primalworld:mesozoic_fossil_uncommon"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:group",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "primalworld:fossil_lucky",
+                        "levels": 3
+                      }
+                    ]
+                  }
+                }
+              ],
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "weight": 40,
+                  "name": "primalworld:mesozoic_fossil_rare"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 0,
+                  "name": "primalworld:mesozoic_fossil_common"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 60,
+                  "name": "primalworld:mesozoic_fossil_uncommon"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:group",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "weight": 10,
+                  "name": "primalworld:mesozoic_fossil_rare"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 20,
+                  "name": "primalworld:mesozoic_fossil_uncommon"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 30,
+                  "name": "primalworld:mesozoic_fossil_common"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 40,
+                  "name": "minecraft:bone"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "primalworld:blocks/andesite_fossil_block"
+}
+

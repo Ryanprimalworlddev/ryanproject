@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_seagrass",
+  "textures": {
+    "texture": "primalworld:block/tall_brown_seagrass_upper"
+  }
+}

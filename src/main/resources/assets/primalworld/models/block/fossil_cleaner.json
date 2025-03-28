@@ -1,0 +1,13 @@
+
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "primalworld:block/cleaner/cleaner_top",
+    "east": "primalworld:block/cleaner/cleaner_top",
+    "north": "primalworld:block/cleaner/cleaner_front",
+    "particle": "primalworld:block/cleaner/cleaner_front",
+    "south": "primalworld:block/cleaner/cleaner_back",
+    "up": "primalworld:block/cleaner/cleaner_brush_empty",
+    "west": "primalworld:block/cleaner/cleaner_top"
+  }
+}
